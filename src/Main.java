@@ -7,9 +7,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-
 class 팀이름정하기{
-	
 	public static int [] 개수구하기(String line) { 
 		String [] name = "LOVE".split("");
 		String [] Line =  line.split("");
@@ -23,7 +21,6 @@ class 팀이름정하기{
 		}
 		return array;
 	}
-	
 	
 	public static int 확률구하기(int [] love개수구하기) {
 		
